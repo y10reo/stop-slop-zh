@@ -47,8 +47,6 @@ The skill keeps the main instructions short and moves detailed phrase lists, gen
 The current version draws inspiration from:
 
 - hardikpandya/stop-slop
-- VincentOld/stop-slop-zh
-- pencil20388-eng/stop-slop-zh
 - a Chinese adaptation of humanizer-style AI writing cleanup rules
 
 ## License
