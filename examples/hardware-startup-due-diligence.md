@@ -59,7 +59,7 @@ What changed:
 
 Before:
 
-> 本报告通过深度模拟设立“星澜硬件成长基金”，并选取早期典型智能硬件项目“Nimbus Sleepbuds”进行全流程、沉浸式的风险投资实战演练，结合多份权威行业研报及底层工业标准元器件数据手册，推导出以下两项具有行业指导意义的核心结论。
+> 在当前创新金融与硬科技投资深度融合的时代背景下，本报告通过深度模拟设立“星澜硬件成长基金”，并选取早期典型智能硬件项目“Nimbus Sleepbuds”进行全流程、全链条、沉浸式的风险投资实战演练，结合多份权威行业研报及底层工业标准元器件数据手册，系统性、立体化地推导出以下两项具有重要理论意义与实践价值的核心结论。
 
 After:
 
@@ -67,7 +67,7 @@ After:
 
 What changed:
 
-- Removed "深度、全流程、沉浸式、权威、行业指导意义" padding.
+- Removed "时代背景、深度融合、全流程、全链条、沉浸式、系统性、立体化、重要理论意义与实践价值" padding.
 - Kept the academic-report frame.
 - Added the scope boundary for a course simulation.
 
