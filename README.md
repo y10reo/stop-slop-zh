@@ -28,7 +28,7 @@
 
 改写后：
 
-> FMB 先后在 Kickstarter 和 Indiegogo 众筹，合计获得 5,300 多名支持者和 56.6 万美元认购。这说明它在早期极客用户中有一定吸引力，也获得了初期曝光。它还不能证明大众市场需求、交付能力或主流渠道获客成本。
+> Nimbus Sleepbuds 先后在两个海外众筹平台上线，合计获得 4,800 多名支持者和 48.2 万美元认购。这说明它在早期极客用户中有一定吸引力，也获得了初期曝光。它还不能证明大众市场需求、交付能力或主流渠道获客成本。
 
 这段改写保留了数据，删掉了宣传腔，也没有把众筹金额推导成“市场已经验证”。
 
@@ -94,7 +94,7 @@ references/phrases.md
 references/structures.md
 references/scenarios.md
 references/examples.md
-examples/for-me-buds-due-diligence.md
+examples/hardware-startup-due-diligence.md
 ```
 
 推荐分工：
@@ -122,7 +122,7 @@ stop-slop-zh/
 ├── agents/
 │   └── openai.yaml
 ├── examples/
-│   └── for-me-buds-due-diligence.md
+│   └── hardware-startup-due-diligence.md
 └── references/
     ├── claim-boundaries.md
     ├── examples.md
@@ -133,7 +133,7 @@ stop-slop-zh/
 
 ## 测试案例
 
-`examples/for-me-buds-due-diligence.md` 来自一次真实压力测试。测试文本是一份中文创投课程报告，混合了产品分析、众筹解读、尽职调查、投资结论和法律条款。
+`examples/hardware-startup-due-diligence.md` 来自一次真实压力测试。测试文本是一份中文创投课程报告，混合了产品分析、众筹解读、尽职调查、投资结论和法律条款。示例中的基金名和项目名均已替换为虚构名称。
 
 这个案例暴露出的关键问题是“证据边界”：很多中文 AI 文本会把有限证据写成过度结论，比如把众筹金额写成市场验证，把理论模型写成最终证明，把法律条款写成风险被彻底封锁。
 

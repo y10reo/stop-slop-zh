@@ -1,22 +1,24 @@
-# For Me Buds Due Diligence Stress Test
+# Hardware Startup Due Diligence Stress Test
 
 These examples come from a stress test on a Chinese venture-capital course report. The source document mixed academic report writing, product analysis, crowdfunding interpretation, due diligence, and legal term-sheet drafting.
 
 The goal was not to make the prose casual. The goal was to keep investment judgment and formal report style while removing AI-like overstatement and evidence leaps.
 
+Names and figures in this file are fictionalized for privacy.
+
 ## Case 1: Crowdfunding Data Overclaim
 
 Before:
 
-> FMB 产品先后在 Kickstarter 和 Indiegogo 两大国际众筹平台上发起众筹，累计吸引了超过 5,300 位极客支持者，筹集资金总额高达 56.6 万美元。这一辉煌的众筹战绩成功验证了早期极客用户的买单意愿，并以极低的初期获客成本完成了品牌曝光。
+> Nimbus Sleepbuds 项目先后在两个国际众筹平台上发起众筹，累计吸引了超过 4,800 位极客支持者，筹集资金总额高达 48.2 万美元。这一辉煌的众筹战绩成功验证了早期极客用户的买单意愿，并以极低的初期获客成本完成了品牌曝光。
 
 After:
 
-> FMB 先后在 Kickstarter 和 Indiegogo 众筹，合计获得 5,300 多名支持者和 56.6 万美元认购。这说明它在早期极客用户中有一定吸引力，也获得了初期曝光。它还不能证明大众市场需求、交付能力或主流渠道获客成本。
+> Nimbus Sleepbuds 先后在两个海外众筹平台上线，合计获得 4,800 多名支持者和 48.2 万美元认购。这说明它在早期极客用户中有一定吸引力，也获得了初期曝光。它还不能证明大众市场需求、交付能力或主流渠道获客成本。
 
 What changed:
 
-- Kept the platform names, backer count, and pledged amount.
+- Kept the platform context, backer count, and pledged amount.
 - Replaced "辉煌的众筹战绩" with neutral language.
 - Narrowed "market validation" to early-user pledge behavior.
 - Added the missing boundary: delivery, retention, and mainstream acquisition still need separate proof.
@@ -57,11 +59,11 @@ What changed:
 
 Before:
 
-> 本报告通过深度模拟设立“深圳深蓝智慧创投基金”，并选取早期典型硬科技项目“For Me Buds”进行全流程、沉浸式的风险投资实战演练，结合多份权威行业研报及底层工业标准元器件数据手册，推导出以下两项具有行业指导意义的核心结论。
+> 本报告通过深度模拟设立“星澜硬件成长基金”，并选取早期典型智能硬件项目“Nimbus Sleepbuds”进行全流程、沉浸式的风险投资实战演练，结合多份权威行业研报及底层工业标准元器件数据手册，推导出以下两项具有行业指导意义的核心结论。
 
 After:
 
-> 本报告模拟设立“深圳深蓝智慧创投基金”，并以 For Me Buds 作为早期硬科技项目样本，完成基金设立、尽职调查、投资决策和协议设计四个环节。报告使用行业研究资料和元器件规格书做推演，结论适用于课程模拟场景，不等同于真实投资建议。
+> 本报告模拟设立“星澜硬件成长基金”，并以 Nimbus Sleepbuds 作为早期智能硬件项目样本，完成基金设立、尽职调查、投资决策和协议设计四个环节。报告使用行业研究资料和元器件规格书做推演，结论适用于课程模拟场景，不等同于真实投资建议。
 
 What changed:
 
