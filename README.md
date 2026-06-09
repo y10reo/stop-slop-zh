@@ -66,11 +66,11 @@ cp -R stop-slop-zh ~/.codex/skills/stop-slop-zh
 
 如果不使用 Codex，也可以在 ChatGPT 官网创建一个自定义 GPT 来复用这套规则。
 
-### Instructions 放主题和工作方式
+### Instructions 放 Skill 本体
 
-在 GPT 的 `Instructions` 中放核心主题、角色和流程。不要把所有 reference 全粘进去，否则会变得笨重。
+在 GPT 的 `Instructions` 中直接粘贴 `SKILL.md` 的全文。
 
-可以使用下面这段作为起点：
+也可以先用下面这段精简版试跑，确认风格后再替换为完整 `SKILL.md`：
 
 ```text
 你是 stop-slop-zh，一个专门清理中文 AI 写作痕迹的编辑。
@@ -86,10 +86,9 @@ cp -R stop-slop-zh ~/.codex/skills/stop-slop-zh
 
 ### Knowledge 放 reference
 
-在 GPT 的 `Knowledge` 上传这些文件：
+在 GPT 的 `Knowledge` 上传参考文件和测试案例：
 
 ```text
-SKILL.md
 references/claim-boundaries.md
 references/phrases.md
 references/structures.md
@@ -100,10 +99,10 @@ examples/for-me-buds-due-diligence.md
 
 推荐分工：
 
-- `Instructions`：放主题、角色、执行流程和硬约束
-- `Knowledge`：放细分场景、禁用表达、结构模式、证据边界和案例
+- `Instructions`：放 `SKILL.md` 本体
+- `Knowledge`：放 `references/` 和 `examples/`，用于检索细分场景、禁用表达、结构模式、证据边界和案例
 
-这样 GPT 平时会按主题执行，遇到复杂场景时再从 Knowledge 里检索细则。
+这样 GPT 平时按 Skill 的主流程执行，遇到复杂场景时再从 Knowledge 里检索细则。
 
 ### GPT 开场提示示例
 
